@@ -1,0 +1,91 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+
+<!--GRIDPANE-->
+<!--<GridPane fx:controller="sample.Controller"-->
+<!--          xmlns:fx="http://javafx.com/fxml" alignment="top_center" hgap="10" vgap="10" gridLinesVisible="true">-->
+<!--    <padding>-->
+<!--        <Insets top="10"/>-->
+<!--    </padding>-->
+
+<!--    &lt;!&ndash;    <columnConstraints>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <ColumnConstraints percentWidth="50.0"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <ColumnConstraints percentWidth="50.0"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </columnConstraints>&ndash;&gt;-->
+
+<!--    <Button text="Button One" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.halignment="RIGHT"/>-->
+<!--    <Button text="Button Two" GridPane.columnIndex="0" GridPane.rowIndex="1"/>-->
+<!--    <Button text="Button Three" GridPane.columnIndex="1" GridPane.rowIndex="0"/>-->
+<!--    <Button text="Button Four Is Large" GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.columnSpan="2"/>-->
+<!--    <Button text="Button Five Five" GridPane.columnIndex="0" GridPane.rowIndex="4"/>-->
+<!--</GridPane>-->
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.BorderPane?>
+
+<!--Border pane is a typical client app with top, bottom, right, and center regions or blocks-->
+<!--<BorderPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">-->
+
+<!--    <top>-->
+<!--        <Label text="This label is in the top position" BorderPane.alignment="CENTER"/>-->
+<!--    </top>-->
+
+<!--    <bottom>-->
+<!--        &lt;!&ndash;HBOX attempts to stretch to take up as much space as possible without stretching its children&ndash;&gt;-->
+<!--        <HBox spacing="10" alignment="top_right">-->
+<!--            <padding>-->
+<!--                <Insets bottom="10" right="10"/>-->
+<!--            </padding>-->
+
+<!--            <Button text="Okay" prefWidth="90"/>-->
+<!--            <Button text="Cancel" prefWidth="90"/>-->
+<!--            <Button text="Help" prefWidth="90"/>-->
+<!--        </HBox>-->
+<!--    </bottom>-->
+
+<!--    <left>-->
+<!--        <Label BorderPane.alignment="CENTER" text="This label is in the left position"/>-->
+<!--    </left>-->
+
+<!--    <center>-->
+<!--        <Label text="This label is in the center position and has really loooooooooooooooooooooong text"/>-->
+<!--    </center>-->
+
+<!--    <right>-->
+<!--        <Label text="This label is in the right position"/>-->
+<!--    </right>-->
+<!--</BorderPane>-->
+
+<?import javafx.scene.layout.FlowPane?>
+
+<!--A lot like flex box with the wrapping and all-->
+<!--<FlowPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" orientation="HORIZONTAL">-->
+<!--    <Button text="Button One"/>-->
+<!--    <Button text="Button Two"/>-->
+<!--    <Button text="Button Three"/>-->
+<!--    <Button text="Button Four"/>-->
+<!--    <Button text="Button Five"/>-->
+<!--    <Button text="Button Six"/>-->
+<!--    <Button text="Button Seven"/>-->
+<!--    <Button text="Button Eight"/>-->
+<!--    <Button text="Button Nine"/>-->
+<!--    <Button text="Button Ten"/>-->
+<!--</FlowPane>-->
+
+<?import javafx.scene.layout.TilePane?>
+<TilePane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" orientation="HORIZONTAL">
+    <Button text="Button One"/>
+    <Button text="Button Two"/>
+    <Button text="Button Three"/>
+    <Button text="Button Four"/>
+    <Button text="Button Five"/>
+    <Button text="Button Six"/>
+    <Button text="Button Seven"/>
+    <Button text="Button Eight"/>
+    <Button text="Button Nine"/>
+    <Button text="Button Ten"/>
+</TilePane>
